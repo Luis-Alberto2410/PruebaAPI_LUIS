@@ -11,6 +11,7 @@ namespace MissingNumber
         {
             if (args.Length > 0 && int.TryParse(args[0], out int number) && number > 0 && number <= 100)
             {
+
                 var numberSet = new NaturalNumberSet();
                 numberSet.Extract(number);
                 Console.WriteLine($"Número extraído: {number}");
