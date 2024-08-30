@@ -1,0 +1,6 @@
+@Prueba2_API_luis_HostAddress = http://localhost:5149
+
+GET {{Prueba2_API_luis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
